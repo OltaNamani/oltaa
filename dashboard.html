@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Spitali Amerikan</title>
+    <style>
+        /* CSS */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #002855;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 1rem;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        header nav a:hover {
+            color: #f9a825;
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 5rem 2rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero .cta {
+            background: #f9a825;
+            color: #002855;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .hero .cta:hover {
+            background: #ffd54f;
+        }
+
+        .services-preview, .gallery, .specialists, .testimonials {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .services-preview .box-container, .gallery-container, .specialists-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .services-preview .box, .gallery-container img, .specialists-container .specialist {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .specialists-container .specialist img {
+            max-width: 100px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background: #002855;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .testimonials .testimonial {
+            margin: 1rem auto;
+            max-width: 800px;
+            background: #f4f4f4;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Spitali Amerikan</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Miresevini në Spitalin Amerikan</h1>
+        <p>Shërbimi më i mirë shëndetësor për ju dhe familjen tuaj.</p>
+        <a href="services.html" class="cta">Explore Services</a>
+    </section>
+
+    <section class="services-preview">
+        <h2>Our Services</h2>
+        <div class="box-container">
+            <div class="box">
+                <h3>Diagnostikë</h3>
+                <p>Teknologji moderne për diagnostikim të saktë.</p>
+            </div>
+            <div class="box">
+                <h3>Kirurgji</h3>
+                <p>Shërbime kirurgjike nga ekspertë të njohur.</p>
+            </div>
+            <div class="box">
+                <h3>Laborator</h3>
+                <p>Analiza të sakta dhe rezultate të shpejta.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="specialists">
+        <h2>Meet Our Specialists</h2>
+        <div class="specialists-container">
+            <div class="specialist">
+                <img src="https://via.placeholder.com/100" alt="Specialist 1">
+                <h3>Dr. John Doe</h3>
+                <p>Kardiologji</p>
+            </div>
+            <div class="specialist">
+                <img src="https://via.placeholder.com/100" alt="Specialist 2">
+                <h3>Dr. Jane Smith</h3>
+                <p>Neurologji</p>
+            </div>
+            <div class="specialist">
+                <img src="https://via.placeholder.com/100" alt="Specialist 3">
+                <h3>Dr. Mike Brown</h3>
+                <p>Ortopedi</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2>Our Facilities</h2>
+        <div class="gallery-container">
+            <img src="https://via.placeholder.com/400x300" alt="Facility 1">
+            <img src="https://via.placeholder.com/400x300" alt="Facility 2">
+            <img src="https://via.placeholder.com/400x300" alt="Facility 3">
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Patients Say</h2>
+        <div class="testimonial">
+            <p>"Shërbimi ishte i mrekullueshëm, ndihesha i sigurt në çdo hap!"</p>
+            <p><strong>- Anna K.</strong></p>
+        </div>
+        <div class="testimonial">
+            <p>"Mjekët dhe stafi janë shumë profesional dhe të kujdesshëm."</p>
+            <p><strong>- Mark T.</strong></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Spitali Amerikan. Të gjitha të drejtat të rezervuara.</p>
+    </footer>
+</body>
+</html>
+
+
+   
