@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Spitali OLI</title>
+    <style>
+    
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #002855;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 1rem;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        header nav a:hover {
+            color: #f9a825;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+            color: white;
+        }
+
+        .about-intro {
+            background: url('image copy 5.png') no-repeat center center/cover;
+            padding: 4rem 2rem;
+            margin: 2rem auto;
+            border-radius: 8px;
+            max-width: 1200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: white;
+        }
+
+        .about-intro h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-intro p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .mission {
+            background: url('image copy 6.png') no-repeat center center/cover;
+            padding: 4rem 2rem;
+            margin: 2rem auto;
+            border-radius: 8px;
+            max-width: 1200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: white;
+        }
+
+        .mission h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .mission p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .team {
+            background: #fff;
+            margin: 2rem auto;
+            padding: 2rem;
+            border-radius: 8px;
+            max-width: 1200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+
+        .team h2 {
+            color: #002855;
+            margin-bottom: 1.5rem;
+        }
+
+        .team-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .team-container .team-member {
+            text-align: center;
+        }
+
+        .team-container .team-member img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background: #002855;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Spitali OLI</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="about-intro">
+        <h1>About Us</h1>
+        <p>
+            Spitali OLI është lider në shërbimet shëndetësore të avancuara në Kosovë. Me përvojë dhe përkushtim të madh, ne ofrojmë trajtime cilësore dhe të personalizuara, duke qenë zgjedhja e parë për shëndetësi të besueshme dhe profesionale.
+        </p>
+    </section>
+
+    <section class="mission">
+        <h2>Our Mission</h2>
+        <p>
+            Misioni ynë është të ofrojmë shërbime shëndetësore cilësore dhe të personalizuara, duke ndihmuar pacientët të përmirësojnë shëndetin dhe cilësinë e jetës së tyre për një jetë më të lumtur dhe të qëndrueshme.    </section>
+
+    <section class="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="image.png" alt="Team Member 1">
+                <h3>Dr. Liza Bajrami</h3>
+                <p>CEO & Kardiologe</p>
+            </div>
+            <div class="team-member">
+                <img src="image copy.png" alt="Team Member 2">
+                <h3>Dr. Olta Namani</h3>
+                <p>CEO & Anesteziologe</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>©️ 2024 Spitali OLI. Të gjitha të drejtat të rezervuara.</p>
+    </footer>
+</body>
+</html>
